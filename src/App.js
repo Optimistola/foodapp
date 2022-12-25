@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from "./Component/Header.jsx"
+import Header from "./Component/Header.jsx";
 function App() {
   return (
     <div className=''
