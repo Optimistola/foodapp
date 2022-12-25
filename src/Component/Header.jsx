@@ -24,7 +24,7 @@ function Header(){
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl">
             <div className='flex gap-5 '>
                 <BiMenuAltLeft onClick={showNav} className='md:hidden mt-3' />
-                <h1 className='text-bold  md:text-3xl mt-2'>FoodChat</h1>
+                <h1 className='text-bold text-3xl md:text-5xl mt-2'>FoodChat</h1>
             </div>
             <nav className='sm:mt-5'>
              <ul className="md:flex gap-2 justify-around hidden sm:hidden">
@@ -47,7 +47,7 @@ function Header(){
                 <BiHeart/>
             </div>
             <div className=' inputfield'>
-              <input type='search' className=" sm:center mt-5 hidden md:block bg-gray-50 text-sm rounded-lg border border-yellow-300 focus:border-red-500 focus:ring-red-500"/>
+              <input type='search' className=" mt-5 hidden md:block bg-gray-50 text-sm rounded-lg border border-yellow-300 focus:border-red-500 focus:ring-red-500"/>
               <BiSearch className='md:hidden mt-1' onClick={showSearch}/>
            </div>
     </header>
