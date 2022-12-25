@@ -8,8 +8,7 @@ function Header(){
     document.body.querySelector('ul').classList.add('animate2');
     document.body.querySelector('ul').onanimationend=()=>{
         document.body.querySelector('ul').classList.remove('animate');
-    }
-        
+    }       
     }
     let hideNav=()=>{
         document.body.querySelector('ul').classList.remove('animate2');
@@ -48,7 +47,7 @@ function Header(){
                 <BiHeart/>
             </div>
             <div className=' inputfield'>
-              <input type='search' className=" mt-5 hidden md:block bg-gray-50 text-sm rounded-lg border border-yellow-300 focus:border-red-500 focus:ring-red-500"/>
+              <input type='search' className=" sm:center mt-5 hidden md:block bg-gray-50 text-sm rounded-lg border border-yellow-300 focus:border-red-500 focus:ring-red-500"/>
               <BiSearch className='md:hidden mt-1' onClick={showSearch}/>
            </div>
     </header>

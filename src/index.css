@@ -9,6 +9,7 @@ body{
 input{
     text-align: center;
     outline:none;
+    width:80%;
 }
 @media(max-width:760px){
 .ul{
@@ -75,7 +76,7 @@ input{
     display:block;
     position:absolute;
     top: 50px;
-    left:40%;
+    left:10%;
     z-index:3;
  }
 }

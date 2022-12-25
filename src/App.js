@@ -3,7 +3,8 @@ import './App.css';
 import Header from "./Component/Header.jsx"
 function App() {
   return (
-    <div className='bg-red-600'>
+    <div className=''
+    >
       <Header/>
     </div>
   );
