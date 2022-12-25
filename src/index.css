@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family:'Red Hat Display', sans-serif;
+}
+input{
+    text-align: center;
+    outline:none;
+}
+@media(max-width:760px){
+.ul{
+    display:block;
+    position:fixed;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    background-color: white;
+    width:100vw;
+    height:100vh;
+    z-index:90;
+ }
+ .ul img{
+    width:20px;
+ }
+ .animate{
+    animation:move 1s linear;
+  }
+  .animate2{
+    animation:move2 1s linear;
+  }
+
+  @keyframes move{ 
+      0%  { left:0%;
+        display: block;
+      }
+      25%  { left:-25%;
+        display: block;
+      }
+      50%  { left:-50%;
+        display: block;
+      }
+      75%  { left:-75%;
+        display: block;
+      }
+      100% { left:-100%; 
+        display: none;
+      } 
+         }
+         @keyframes move2{ 
+            0%  { left:-100%;
+              display: block;
+            }
+            25%  { left:-75%;
+              display: block;
+            }
+            50%  { left:-50%;
+              display: block;
+            } 
+            75%  { left:-25%;
+              display: block;
+            }
+            100% { left:0%; 
+              display: none;
+            } 
+               }
+  .ul>li{
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+  }
+ .show{
+    display:block;
+    position:absolute;
+    top: 50px;
+    left:40%;
+    z-index:3;
+ }
+}
