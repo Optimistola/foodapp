@@ -30,7 +30,7 @@ function Header(){
         <Router>
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl">
             <div className='flex gap-5 '>
-                <BiMenuAltLeft onClick={showNav} className='md:hidden mt-3' />
+                <button><BiMenuAltLeft onClick={showNav} className='md:hidden mt-3 w-[20px] h-[20px]' /></button>
                 <h1 className='text-bold text-3xl md:text-5xl mt-2'>FoodChat</h1>
             </div>
             <nav className='sm:mt-5'>
