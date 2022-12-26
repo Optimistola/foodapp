@@ -1,9 +1,9 @@
 import React from 'react';
 function Register(){
     return(
-<div class="flex flex-col justify-center items-center">
+<div class="flex flex-col justify-center items-center mt-20">
     <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Register</h1>
-  <form className=" ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20 md:mt-20">
+  <form className=" ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20">
     <div className="mb-4">
       <label className="block text-gray-700 text-sm font-bold mb-2" for="username">
         Username

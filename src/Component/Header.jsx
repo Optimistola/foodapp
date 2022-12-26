@@ -25,7 +25,7 @@ function Header(){
     }
     const [state, setState]= useState(0);
     return(
-        <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl">
+        <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl shadow-md">
             <div className='flex gap-5 '>
                 <button className='md:hidden'><img src={menuIcon}  onClick={showNav}/></button>
                 <h1 className='text-bold text-3xl md:text-5xl mt-2'>FoodChat</h1>
@@ -59,15 +59,14 @@ function Header(){
                 </li>
               </ul>
             </nav>
+            <div className=' inputfield'>
+               <input type='search' className=" md:mt-5 w-full py-2 px-3  md:block bg-gray-50 text-sm rounded-lg border border-red-400 focus:border-red-600 focus:ring-red-500"/>
+           </div>
             <div className='flex justify-center aliign-center content-center item-center md:mt-5'>
               <Link to="user/login" className='ml-2'><FiUser /></Link>
               <Link to="/wishlist" className='relative '><BiHeart className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{'0'}</span></Link>
               <Link to="/cart" className='relative'><BiShoppingBag className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{'0'}</span></Link>
             </div>
-            <div className=' inputfield'>
-               <input type='search' className=" mt-8 hidden md:block bg-gray-50 text-sm rounded-lg border border-yellow-300 focus:border-red-500 focus:ring-red-500"/>
-               <button onClick={showSearch}><BiSearch  className='md:hidden mt-1' /></button>
-           </div>
     </header>
     )
 }
