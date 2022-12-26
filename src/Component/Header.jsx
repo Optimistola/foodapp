@@ -28,16 +28,16 @@ function Header(){
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl shadow-md">
             <div className='flex gap-5 '>
                 <button className='md:hidden'><img src={menuIcon}  onClick={showNav}/></button>
-                <h1 className='text-bold md:text-5xl mt-2 font-bold text-6xl'>FoodChat</h1>
+                <h1 className='text-bold md:text-3xl mt-2 font-bold text-6xl'>FoodChat</h1>
             </div>
             <nav className='sm:mt-5'>
              <ul className="md:flex gap-2 justify-around hidden sm:hidden">
                 <div  className="md:hidden flex justify-between mb-5 mr-5 ml-5 mt-5">
-                  <h1 className='text-bold  md:text-3xl'>FoodChat</h1> 
+                  <h1 className='text-bold  md:text-5xl'>FoodChat</h1> 
                   <button><img src={deleteIcon}  onClick={hideNav}/></button>
                 </div>
                 <li onClick={hideNav}>
-                    <NavLink to="/" end>Home</NavLink>
+                    <NavLink to="/">Home</NavLink>
                 </li>
                 <li onClick={hideNav}>
                     <NavLink to="/menu">Menu</NavLink>

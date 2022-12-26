@@ -16,6 +16,7 @@ function App() {
     <main className=''>
       <Router>
       <Header/>
+      <Home/>
         <Routes>
            <Route path='/' element={<Home/>}/>
            <Route path='menu' element={<Menu/>}/>
@@ -29,7 +30,6 @@ function App() {
            <Route path='user/register' element={<Register/>}/>
         </Routes>
       </Router>
-
     </main>
   );
 }
