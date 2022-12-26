@@ -4,7 +4,8 @@ import {Link} from "react-router-dom"
 
 function Home(){
     return(
-        <div className='md:flex mt-10 justify-around ml-5'>
+        <div>
+          <div className='md:flex mt-10 justify-around ml-5'>
             <div className='mt-5 md:ml-20 mr-50'>
             <h1 className='font-bold text-6xl'><span className='text-red-600'>Th</span>e Art of speed food Quality</h1>
             <p className=' font-bold mt-4 mb-8 mr-10 text-xl '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue</p>
@@ -12,8 +13,11 @@ function Home(){
             </div>
             <div className='md:mr-20 px-10'>
                 <img src={image1} alt="food item" className='w-[500px]'/>
-            </div>
-
+        </div>
+        </div>
+        <div>
+            <h1>hi</h1>
+        </div>
         </div>
         );
 }
