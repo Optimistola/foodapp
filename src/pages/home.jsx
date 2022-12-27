@@ -37,11 +37,11 @@ function Home(){
         </div>
         <div className=' mb-10 md:mr-0 mr-10 lg:mr-20 flex-1 md:mt-20'>
             <div className='mb-5'>
-                <img src={image2} alt='image2' className='w-[100%] '/>
+                <img src={image2} alt='image2' className='w-[100%] md:w-[90%] '/>
             </div>
             <div className='flex gap-3'>
-                <img src={image3} alt='image3' className='w-[50%]'/>
-                <img src={image4} alt='image4' className='w-[50%]'/>
+                <img src={image3} alt='image3' className='w-[50%] md:w-[48%]'/>
+                <img src={image4} alt='image4' className='w-[50%] md:w-[48%]'/>
             </div>
         </div>
             </div>
