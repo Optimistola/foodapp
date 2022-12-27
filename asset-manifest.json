@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/foodapp/static/css/main.8f4531bb.css",
-    "main.js": "/foodapp/static/js/main.b0aa5f69.js",
+    "main.css": "/foodapp/static/css/main.93096b89.css",
+    "main.js": "/foodapp/static/js/main.d27eaa6a.js",
     "static/js/787.8741f9c1.chunk.js": "/foodapp/static/js/787.8741f9c1.chunk.js",
     "static/media/Image1.png": "/foodapp/static/media/Image1.623881392a3027874b26.png",
+    "static/media/image2.png": "/foodapp/static/media/image2.436d8ee835db954dd010.png",
+    "static/media/image5.png": "/foodapp/static/media/image5.56ca65d59acbabe8d7c9.png",
+    "static/media/image7.png": "/foodapp/static/media/image7.68a71aa1f0f4b32880aa.png",
+    "static/media/image8.png": "/foodapp/static/media/image8.2091321b2c8736eb1162.png",
+    "static/media/image4.png": "/foodapp/static/media/image4.81b83fffcfab15074060.png",
+    "static/media/image3.png": "/foodapp/static/media/image3.76ee28ce71941f7fbec9.png",
+    "static/media/image9.svg": "/foodapp/static/media/image9.41be7b75101fbb72810f34303ad1c2e3.svg",
+    "static/media/image10.svg": "/foodapp/static/media/image10.be84b7bd7e616f30a1e181c1c20a1765.svg",
+    "static/media/image11.svg": "/foodapp/static/media/image11.6454e77b059aabef5669a4e43a1385fd.svg",
+    "static/media/image12.svg": "/foodapp/static/media/image12.5513ff712cee8318cf2faf41e178599b.svg",
     "index.html": "/foodapp/index.html",
     "static/media/menu.svg": "/foodapp/static/media/menu.362259e1141f09db6bf846da49fd775d.svg",
-    "main.8f4531bb.css.map": "/foodapp/static/css/main.8f4531bb.css.map",
-    "main.b0aa5f69.js.map": "/foodapp/static/js/main.b0aa5f69.js.map",
+    "main.93096b89.css.map": "/foodapp/static/css/main.93096b89.css.map",
+    "main.d27eaa6a.js.map": "/foodapp/static/js/main.d27eaa6a.js.map",
     "787.8741f9c1.chunk.js.map": "/foodapp/static/js/787.8741f9c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f4531bb.css",
-    "static/js/main.b0aa5f69.js"
+    "static/css/main.93096b89.css",
+    "static/js/main.d27eaa6a.js"
   ]
 }
