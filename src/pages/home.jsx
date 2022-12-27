@@ -18,7 +18,7 @@ function Home(){
         <div className=''>
           <div className='md:flex mt-10 justify-around ml-5'>
             <div className='mt-5 lg:ml-20  mr-10'>
-            <h1 className='font-bold text-5xl md:text-4xl lg:text-6xl mr-10 lg:mr-20'><span className='text-red-600'>Th</span>e Art of speed food Quality</h1>
+            <h1 className='font-bold text-3xl md:text-4xl lg:text-6xl mr-10 lg:mr-20'><span className='text-red-600'>Th</span>e Art of speed food Quality</h1>
             <p className='  mt-4 mb-8 lg:mr-10 text-xl '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue</p>
             <button className='bg-red-600 rounded-full  text-white py-3 px-5'><Link to='../menu'>See menu</Link></button>
             </div>
@@ -26,9 +26,9 @@ function Home(){
                 <img src={image1} alt="food item" className=''/>
         </div>
         </div>
-        <div className='flex flex-col md:flex-row justify-center gap-6 ml-10 lg:ml-20 mt-20 '>
+        <div className='flex flex-col md:flex-row justify-center gap-4 ml-5 lg:ml-20 mt-20 '>
             <div className='flex-1 lg:mt-10'> 
-               <h2 className='font-bold md:text-4xl text-5xl lg:text-6xl mb-3 md:mb-5'><span className='text-red-600'>We</span> Create the best food products</h2>
+               <h2 className='font-bold md:text-4xl text-3xl lg:text-6xl mb-3 md:mb-5'><span className='text-red-600'>We</span> Create the best food products</h2>
                <p className='mb-10 mr-6 text-lg md:mr-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
                <p className='flex items-center content-center  gap-6 mb-3  mr-5'><BiCheck/>Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
                <p className='flex items-center content-center gap-6 mb-3  mr-5'><BiCheck/>Quisque diam pellentesque bibendum non dui volutpat fringilla</p>
@@ -37,11 +37,11 @@ function Home(){
         </div>
         <div className=' mb-10 md:mr-0 mr-10 lg:mr-20 flex-1 md:mt-20'>
             <div className='mb-5'>
-                <img src={image2} alt='image2' className='w-[90%] '/>
+                <img src={image2} alt='image2' className='w-[100%] '/>
             </div>
             <div className='flex gap-3'>
-                <img src={image3} alt='image3' className='w-[45%]'/>
-                <img src={image4} alt='image4' className='w-[45%]'/>
+                <img src={image3} alt='image3' className='w-[50%]'/>
+                <img src={image4} alt='image4' className='w-[50%]'/>
             </div>
         </div>
             </div>
@@ -49,10 +49,10 @@ function Home(){
                <h3 className='text-center text-red-600 text-bold'>Food category</h3>
                <h2 className='font-bold text-3xl text-center'>Choose Food item</h2>
                <div className='flex flex-wrap gap-4'>
-                <img src={image5} alt='image5 ' className='w-[48%] md:w-[22%]'/>
-                <img src={image7} alt='image6' className='w-[48%] md:w-[22%]'/>
-                <img src={image7} alt='image7' className='w-[48%] md:w-[22%]'/>
-                <img src={image8} alt='image8' className='w-[48%] md:w-[22%]'/>
+                <img src={image5} alt='image5 ' className='w-[47%] md:w-[22%]'/>
+                <img src={image7} alt='image6' className='w-[47%] md:w-[22%]'/>
+                <img src={image7} alt='image7' className='w-[47%] md:w-[22%]'/>
+                <img src={image8} alt='image8' className='w-[47%] md:w-[22%]'/>
                </div>
             </div>
             <div className='flex flex-wrap gap-12 px-4 md:px-12 lg:px-40 py-8 lg:py-20 justify-around items-center bgr]'>
