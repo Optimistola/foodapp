@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 function Register(){
     return(
 <div class="flex flex-col justify-center items-center mt-20">
@@ -26,10 +27,10 @@ function Register(){
 
     <div className="md:flex items-center justify-between">
       <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline" type="button">
-        Sign In
+        Sign Up
       </button>
       <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" ><a href="#">
-        Forgot Password?</a><span className=" text-red-800 text-sm font-bold inline-block">/Register.</span></p>
+        Already have an account?</a><span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/login'>Login</Link></span></p>
 
     </div>
   </form>

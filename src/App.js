@@ -17,7 +17,7 @@ function App() {
       <Router>
       <Header/>
         <Routes>
-           <Route path='/' element={<Home/>}/>
+           <Route path='/foodapp' element={<Home/>}/>
            <Route path='menu' element={<Menu/>}/>
            <Route path='blog' element={<Blog/>}/>
            <Route path='pages' element={<Pages/>}/>

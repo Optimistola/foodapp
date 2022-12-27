@@ -37,7 +37,7 @@ function Header(){
                   <button><img src={deleteIcon}  onClick={hideNav}/></button>
                 </div>
                 <li onClick={hideNav}>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/foodapp">Home</NavLink>
                 </li>
                 <li onClick={hideNav}>
                     <NavLink to="/menu">Menu</NavLink>
