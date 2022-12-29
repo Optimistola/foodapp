@@ -14,7 +14,7 @@ function Login(){
   }
     return(
       <div>
-        <Error errortext={'Either of the two field is empty'}/>
+        <Error errortext={'either of the field is empty'}/>
 <div class="flex flex-col justify-center items-center mt-20">
     <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Login</h1>
   <form className=" ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20" name='loginForm'>
