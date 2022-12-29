@@ -9,7 +9,7 @@ function Login(){
     let psw=loginForm.elements.psw;
     if(userName.value===''||psw.value===''){
       window.navigator.vibrate(700);
-      error.classList.add('visible');
+      error.className='visible';
     }
   }
     return(
