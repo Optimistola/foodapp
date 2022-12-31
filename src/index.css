@@ -3,9 +3,11 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 .visible{
-  @apply bg-red-600 px-5 py-3 mt-20 text-white text-center
+  @apply bg-red-600 px-5 py-3 mt-20 text-white text-center block
  }
-
+ .form{
+  @apply ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20;
+ }
 body{
   font-family:'Red Hat Display', sans-serif;
 }
