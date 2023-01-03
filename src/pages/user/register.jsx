@@ -37,7 +37,7 @@ window.navigator.vibrate(700);
       </label>
       <input 
       value= {formData.username}
-      onChange={e=> setFormData({...formData, username:e.target.value})}
+      onChange={e=> setFormData({ ...formData, username: e.target.value})}
       className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"/>
     </div>
     <div class="mb-6">

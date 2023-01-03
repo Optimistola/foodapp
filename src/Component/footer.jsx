@@ -43,7 +43,7 @@ function Footer(){
         <h3 className="text-lg font-bold">Recent post</h3>
     </div>
     </div>
-    <div className="bg-red-600 text-white py-5 flex justify-around gap-10">
+    <div className="bg-red-600 text-white py-5 md:flex justify-around gap-10">
         <p>Copyright © 2022 | Foodtuck by The Face. All Rights Reserved.</p>
         <div className='flex items-center gap-5'>
            <a href="https//:facebook.com"><FiFacebook/></a>
