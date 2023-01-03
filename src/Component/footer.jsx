@@ -1,3 +1,4 @@
+import { FiFacebook, FiTwitter, FiInstagram, FiGithub, FiYoutube} from 'react-icons/fi'
 function Footer(){
     return(
         <footer className="bg-black">
@@ -14,33 +15,43 @@ function Footer(){
     <hr className="bg-red-600 mb-5"/>
     <div className="md:flex justify-center content-center gap-10  ml-5 md:ml-20 md:mr-10">
     <div className=" flex-1  mb-5">
-        <h3 className=" text-lg font-bold">About us</h3>
+        <h3 className=" text-lg font-bold mb-5">About us</h3>
         <p className="">Corporate clients and leisure travelers hasbeen relying on Groundlink for dependablesafe, and professional chauffeured carservice in major cities across World.</p>
     </div>
     <div className="flex-1 mb-5 mt-5">
-        <h3 className="text-lg font-bold">Useful link</h3>
+        <h3 className="text-lg font-bold mb-5">Useful link</h3>
         <ul>
-            <li>About</li>
-            <li>News</li>
-            <li>Partners</li>
-            <li>Team</li>
-            <li>Menu</li>
-            <li>contact</li>
+            <li className='mb-5'>About</li>
+            <li className='mb-5'>News</li>
+            <li className='mb-5'>Partners</li>
+            <li className='mb-5'>Team</li>
+            <li className='mb-5'>Menu</li>
+            <li className='mb-5'>contact</li>
 
         </ul>
     </div>
     <div className="flex-1 mb-5 mt-5">
-        <h3 className="text-lg font-bold">Help</h3>
+        <h3 className="text-lg font-bold mb-5">Help</h3>
          <ul>
-            <li>FAQ</li>
-            <li>Terms & Condition</li>
-            <li>Reporting</li>
-            <li>Documentation</li>
+            <li className='mb-5'>FAQ</li>
+            <li className='mb-5'>Terms & Condition</li>
+            <li className='mb-5'>Reporting</li>
+            <li className='mb-5'>Documentation</li>
          </ul>
     </div>
     <div className="flex-1 mt-5 ">
         <h3 className="text-lg font-bold">Recent post</h3>
     </div>
+    </div>
+    <div className="bg-red-600 text-white py-5 flex justify-around gap-10">
+        <p>Copyright © 2022 | Foodtuck by The Face. All Rights Reserved.</p>
+        <div className='flex items-center gap-5'>
+           <a href="https//:facebook.com"><FiFacebook/></a>
+           <FiTwitter/>
+           <FiInstagram/>
+           <FiGithub/>
+           <FiYoutube/>
+        </div>
     </div>
     </footer>
     )

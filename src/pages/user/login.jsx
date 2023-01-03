@@ -70,7 +70,7 @@ function Login() {
         <button
  className='bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline'>Login</button>
       </form>
-      <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" ><a href="#">
+      <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" ><a href="">
         Already have an account?</a><span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/register'>Register</Link></span></p>
       </div>
       )

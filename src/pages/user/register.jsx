@@ -1,15 +1,44 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
+import {React, useState} from 'react';
+import {Link} from 'react-router-dom';
+import Error from './error';
 function Register(){
+  const [formData, setFormData]=useState({
+    username:'', password:'', confirmPassword:'',
+  });
+  const [errors, setErrors] = useState({});
+  function Validate(){
+    let newErrors={};
+    if(!formData.username){
+      alert();
+newErrors.username=' username is required';
+window.navigator.vibrate(700);
+    }
+    setErrors(newErrors);
+    return !Object.keys(newErrors).length;
+  }
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (Validate()) {
+      // submit the form
+    }
+  }
+
+
     return(
 <div class="flex flex-col justify-center items-center mt-20">
+<Error errortext={!formData.username? errors.username:''} />
     <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Register</h1>
-  <form className=" ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20">
+  <form 
+  onSubmit={handleSubmit}
+  className=" ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20">
     <div className="mb-4">
       <label className="block text-gray-700 text-sm font-bold mb-2" for="username">
         Username
       </label>
-      <input className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"/>
+      <input 
+      value= {formData.username}
+      onChange={e=> setFormData({...formData, username:e.target.value})}
+      className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"/>
     </div>
     <div class="mb-6">
       <label className="block text-gray-700 text-sm font-bold mb-2" for="password">
