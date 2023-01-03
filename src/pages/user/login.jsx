@@ -56,8 +56,6 @@ function Login() {
         <input
         className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline'
           type="email"
-          value={formData.email}
-          onChange={event => setFormData({ ...formData, email: event.target.value })}
         />
         </label>
         <label className='label'>
@@ -69,7 +67,8 @@ function Login() {
           onChange={event => setFormData({ ...formData, password: event.target.value })}
         />
         </label><br/>
-        <button className='bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline'>Login</button>
+        <button
+ className='bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline'>Login</button>
       </form>
       <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" ><a href="#">
         Already have an account?</a><span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/register'>Register</Link></span></p>

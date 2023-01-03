@@ -48,7 +48,7 @@ function Home(){
             <div className='px-4 md:px-12 lg:px-40 py-8 lg:py-20 flex flex-col justify-center items-center'>
                <h3 className='text-center text-red-600 text-bold'>Food category</h3>
                <h2 className='font-bold text-3xl text-center'>Choose Food item</h2>
-               <div className='flex flex-wrap gap-4'>
+               <div className='flex flex-wrap gap-4 sm: ml-5 md:ml-10'>
                 <img src={image5} alt='image5 ' className='w-[47%] md:w-[22%]'/>
                 <img src={image7} alt='image6' className='w-[47%] md:w-[22%]'/>
                 <img src={image7} alt='image7' className='w-[47%] md:w-[22%]'/>
