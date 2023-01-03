@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/foodapp/static/css/main.cc47f8ce.css",
-    "main.js": "/foodapp/static/js/main.dcee4039.js",
+    "main.css": "/foodapp/static/css/main.fdc997e9.css",
+    "main.js": "/foodapp/static/js/main.9a6116aa.js",
     "static/js/787.8741f9c1.chunk.js": "/foodapp/static/js/787.8741f9c1.chunk.js",
     "static/media/Image1.png": "/foodapp/static/media/Image1.623881392a3027874b26.png",
     "static/media/image2.png": "/foodapp/static/media/image2.436d8ee835db954dd010.png",
@@ -16,12 +16,12 @@
     "static/media/image12.svg": "/foodapp/static/media/image12.5513ff712cee8318cf2faf41e178599b.svg",
     "index.html": "/foodapp/index.html",
     "static/media/menu.svg": "/foodapp/static/media/menu.362259e1141f09db6bf846da49fd775d.svg",
-    "main.cc47f8ce.css.map": "/foodapp/static/css/main.cc47f8ce.css.map",
-    "main.dcee4039.js.map": "/foodapp/static/js/main.dcee4039.js.map",
+    "main.fdc997e9.css.map": "/foodapp/static/css/main.fdc997e9.css.map",
+    "main.9a6116aa.js.map": "/foodapp/static/js/main.9a6116aa.js.map",
     "787.8741f9c1.chunk.js.map": "/foodapp/static/js/787.8741f9c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc47f8ce.css",
-    "static/js/main.dcee4039.js"
+    "static/css/main.fdc997e9.css",
+    "static/js/main.9a6116aa.js"
   ]
 }
