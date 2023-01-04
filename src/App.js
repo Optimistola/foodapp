@@ -21,7 +21,6 @@ function App() {
            <Route path='/foodapp' element={<Home/>}/>
            <Route path='menu' element={<Menu/>}/>
            <Route path='blog' element={<Blog/>}/>
-           <Route path='pages' element={<Pages/>}/>
            <Route path='about' element={<About/>}/>
            <Route path='shop' element={<Shop/>}/>
            <Route path='about' element={<About/>}/>

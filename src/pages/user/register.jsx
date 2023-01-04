@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Error from './error';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Pages from '../pages'
 function Register() {
   const [formData, setFormData] = useState({ name: '', email: '', password: '', cpassword:'',
   });
@@ -35,7 +36,9 @@ function Register() {
   }
 
   return (
-    <div class="flex flex-col justify-center items-center mt-20 pt-20">
+    <div>
+      <Pages pageName={'Register'}/>
+    <div class="flex flex-col justify-center items-center mt-10 pt-20">
     <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Register</h1>
     <Error errortext={!formData.name? errors.name: !formData.password? errors.password: formData.password.length < 8? 'Password must be at least 8 characters': formData.cpassword!==formData.password? 'Password must match':''} />
     <form onSubmit={handleSubmit} className='ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20'>
@@ -80,6 +83,7 @@ function Register() {
       </form>
       <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" >
         Already have an account?<span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/login'>Login</Link></span></p>
+      </div>
       </div>
       )
   }

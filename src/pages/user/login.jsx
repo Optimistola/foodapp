@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Error from './error';
+import Pages from '../pages'
 import {Link} from 'react-router-dom'
 function Login() {
   const [formData, setFormData] = useState({
@@ -37,6 +38,8 @@ function Login() {
   }
 
   return (
+    <div>
+       <Pages pageName={'Login'}/>
     <div class=" heroimg flex flex-col justify-center items-center mt-20 md:pt-20">
     <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Login</h1>
     <Error errortext={!formData.name? errors.name: !formData.password? errors.password: formData.password.length < 8? 'Password must be at least 8 characters':''} />
@@ -65,6 +68,7 @@ function Login() {
       </form>
       <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" >
         Already have an account?<span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/register'>Register</Link></span></p>
+      </div>
       </div>
       )
   }

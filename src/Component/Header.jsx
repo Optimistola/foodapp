@@ -46,9 +46,6 @@ function Header(){
                     <NavLink to="/blog">Blog</NavLink>
                 </li>
                 <li onClick={hideNav}>
-                    <NavLink to="/pages">Pages</NavLink>
-                </li>
-                <li onClick={hideNav}>
                     <NavLink to="/about">About</NavLink>
                 </li>
                 <li onClick={hideNav}>

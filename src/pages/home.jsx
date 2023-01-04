@@ -11,7 +11,7 @@ import image10 from "../Component/images/image10.svg";
 import image11 from "../Component/images/image11.svg";
 import image12 from "../Component/images/image12.svg";
 import {Link} from "react-router-dom";
-import { BiCheck } from 'react-icons/bi'
+import { BiCheck } from 'react-icons/bi';
 
 function Home(){
     return(
