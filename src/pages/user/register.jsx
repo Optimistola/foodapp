@@ -20,8 +20,7 @@ function Register() {
     } else if (formData.password.length < 8) {
       newErrors.password = 'Password must be at least 8 characters';
       window.navigator.vibrate(700);
-    }
-     if(formData.password!==formData.cpassword){
+    }else if (formData.password!==formData.cpassword){
       newErrors.password = 'Password must match';
       window.navigator.vibrate(700);
 
@@ -40,11 +39,11 @@ function Register() {
 
   return (
     <div class="flex flex-col justify-center items-center mt-20">
-    <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Login</h1>
+    <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Register</h1>
     <Error errortext={!formData.name? errors.name: !formData.password? errors.password: formData.password.length < 8? 'Password must be at least 8 characters':''} />
     <form onSubmit={handleSubmit} className='ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20'>
       <label className='label'>
-        Name:
+        Username:
         <input
          className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline'
           type="text"
