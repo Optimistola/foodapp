@@ -42,7 +42,7 @@ function Login() {
     <Error errortext={!formData.name? errors.name: !formData.password? errors.password: formData.password.length < 8? 'Password must be at least 8 characters':''} />
     <form onSubmit={handleSubmit} className='ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20'>
       <label className='label'>
-        Name:
+        Username:
         <input
          className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline'
           type="text"
@@ -51,13 +51,6 @@ function Login() {
         />
       </label>
       <br />
-      <label className='label'>
-        Email:
-        <input
-        className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline'
-          type="email"
-        />
-        </label>
         <label className='label'>
         password:
         <input
@@ -70,8 +63,8 @@ function Login() {
         <button
  className='bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline'>Login</button>
       </form>
-      <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" ><a href="">
-        Already have an account?</a><span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/register'>Register</Link></span></p>
+      <p className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-500 ml-5" >
+        Already have an account?<span className=" text-red-800 text-sm font-bold inline-block">/<Link to='../user/register'>Register</Link></span></p>
       </div>
       )
   }

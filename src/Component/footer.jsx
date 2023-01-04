@@ -13,7 +13,7 @@ function Footer(){
         </div>
     </div>
     <hr className="bg-red-600 mb-5"/>
-    <div className="md:flex justify-center content-center gap-10  ml-5 md:ml-20 md:mr-10">
+    <div className="lg:flex justify-center content-center gap-10  ml-5 md:ml-20 md:mr-10">
     <div className=" flex-1  mb-5">
         <h3 className=" text-lg font-bold mb-5">About us</h3>
         <p className="">Corporate clients and leisure travelers hasbeen relying on Groundlink for dependablesafe, and professional chauffeured carservice in major cities across World.</p>
@@ -45,7 +45,7 @@ function Footer(){
     </div>
     <div className=" flex flex-col-reverse text-center md:flex-row bg-red-600 text-white py-5  justify-around gap-10 	">
         <div>
-        <p>Copyright © 2022 | Foodtuck by The Face. All Rights Reserved.</p>
+        <p>Copyright © 2023 | FoodApp by Optimist. All Rights Reserved.</p>
             </div>
         <div className='flex items-center justify-center gap-5'>
            <a href="https//:facebook.com"><FiFacebook/></a>
