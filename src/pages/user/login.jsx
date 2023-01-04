@@ -14,7 +14,7 @@ function Login() {
     let newErrors = {};
 
     if (!formData.name) {
-      newErrors.name = 'Name is required';
+      newErrors.name = 'Username is required';
       window.navigator.vibrate(700);
     }
     if (!formData.password) {
@@ -37,7 +37,7 @@ function Login() {
   }
 
   return (
-    <div class="flex flex-col justify-center items-center mt-20">
+    <div class=" heroimg flex flex-col justify-center items-center mt-20 md:pt-20">
     <h1 className='font-bold text-sm-5 bold text-red-400 text-center'>Login</h1>
     <Error errortext={!formData.name? errors.name: !formData.password? errors.password: formData.password.length < 8? 'Password must be at least 8 characters':''} />
     <form onSubmit={handleSubmit} className='ml-5 mr-5 mt-10 md:mr-20 md:mr-20 md:ml-20'>
