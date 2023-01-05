@@ -188,7 +188,7 @@ function Menu(){
                 <p>560 CAL</p>
               </div>
               <div className='mr-5'>
-                <h2 className='text-red-600 font-bold text-xl'>$32</h2>
+                <h2 className='text-red-600 font-bold'>$32</h2>
               </div>
               </div>
               <div className='flex justify-center content-center gap-20 mt-5 myshadow py-2 md:py-5'>
@@ -198,7 +198,7 @@ function Menu(){
                 <p>700 CAL</p>
               </div>
               <div className='mr-5'>
-                <h2 className='text-red-600 font-bold text-xl'>$43</h2>
+                <h2 className='text-red-600 font-bold '>$43</h2>
               </div>
               </div>
               <div className='flex justify-center content-center gap-20 mt-5 myshadow py-2 md:py-5'>
@@ -208,7 +208,7 @@ function Menu(){
                 <p>1000 CAL</p>
               </div>
               <div className='mr-5'>
-                <h2 className='text-red-600 font-bold text-xl'>$14</h2>
+                <h2 className='text-red-600 font-bold '>$14</h2>
               </div>
               </div>
               <div className='flex justify-center content-center mt-5 myshadow py-2 md:py-5'>
@@ -218,7 +218,7 @@ function Menu(){
                 <p>560 CAL</p>
               </div>
               <div className='mr-5'>
-                <h2  className='text-red-600 font-bold text-xl'>$35</h2>
+                <h2  className='text-red-600 font-bold'>$35</h2>
               </div>
               </div>
               </div>
