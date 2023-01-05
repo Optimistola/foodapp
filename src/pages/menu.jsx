@@ -119,8 +119,8 @@ function Menu(){
               <img src={image13} className='px-2 py-3 ml-5 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-5xl ml-10 lg:ml-0'>Dessert</h3>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
-              <div className=' flex  justify-between'>
+               <div className='justify-center content-center mt-5 myshadow py-2 ml-20'>
+              <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Fig and lemon cake</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$32</h2>
                 </div>
