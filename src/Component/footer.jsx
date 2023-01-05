@@ -1,10 +1,10 @@
 import { FiFacebook, FiTwitter, FiInstagram, FiGithub, FiYoutube} from 'react-icons/fi'
 function Footer(){
     return(
-        <footer className="bg-black">
-       <div className="md:flex justify-center content-center items-center mt-20 ">
+        <footer className="bg-black mt-20">
+       <div className="md:flex justify-center content-center items-center">
         <div className=' ml-5 md:ml-10 mr-10'>
-        <h2 className='text-bold  text-2xl mt-20'><span className='text-red-600'>Sti</span>ll Need Our Support ?</h2>
+        <h2 className='text-bold  text-2xl mt-20 '><span className='text-red-600'>Sti</span>ll Need Our Support ?</h2>
         <p className="">Don’t wait make a smart & logical quote here. Its pretty easy.</p>
         </div>
         <div className="flex  md:ml-20 mt-20 px-3 py-2 content center ">

@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useRef} from 'react';
 import {  Link, NavLink,} from "react-router-dom";
 import deleteIcon from './images/delete.png';
 import menuIcon from './images/menu.svg';
@@ -20,15 +20,15 @@ function Header(){
             document.body.querySelector('ul').classList.toggle('ul');
         };
     }
-    let navigate=()=>{
-      let liNav=document.querySelectorAll('.li');
-      liNav.forEach(item=>{
-        window.addEventListener('click', function(){
-            alert();
-        });
-      });
-    }
-    const [state, setState]= useState(0);
+    let liNav= document.querySelectorAll('li');
+    liNav.forEach(item=>{
+        item.addEventListener('click', function(){
+            for(let i=0; i<liNav.length; i++){
+                liNav[i].classList.remove('li-active');
+            }
+            item.classList.add('li-active');
+        })
+    })
     return(
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl shadow-md">
             <div className='flex gap-5 '>
@@ -41,22 +41,22 @@ function Header(){
                   <h1 className='text-bold  md:text-5xl'>FoodChat</h1> 
                   <button><img src={deleteIcon}  onClick={hideNav}/></button>
                 </div>
-                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li-active li'>
+                <li onClick={hideNav} className='li li-active'>
                     <NavLink to="/foodapp">Home</NavLink>
                 </li>
-                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
+                <li onClick={hideNav} className='li'>
                     <NavLink to="/menu">Menu</NavLink>
                 </li>
-                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
+                <li onClick={hideNav} className='li'>
                     <NavLink to="/blog">Blog</NavLink>
                 </li>
-                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
+                <li onClick={hideNav} className='li'>
                     <NavLink to="/about">About</NavLink>
                 </li>
-                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
+                <li onClick={hideNav} className='li'>
                     <NavLink to="/shop">Shop</NavLink>
                 </li>
-                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
+                <li onClick={hideNav} className='li'>
                     <NavLink to="/contact">Contact</NavLink>
                 </li>
               </ul>

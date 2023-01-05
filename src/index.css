@@ -33,6 +33,7 @@ body{
 @media(min-width:786px){
 .li-active{
   text-decoration: underline !important;
+  text-decoration-color: red !important;
 }
 .hero2{
   background-image:url('./Component/images/image2.png');

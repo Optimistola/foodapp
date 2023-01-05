@@ -48,32 +48,32 @@ function Home(){
             <div className='px-4 md:px-12 lg:px-40 py-8 lg:py-20 flex flex-col justify-center items-center'>
                <h3 className='text-center text-red-600 text-bold'>Food category</h3>
                <h2 className='font-bold text-3xl text-center'>Choose Food item</h2>
-               <div className='flex flex-wrap gap-4 sm: ml-5 md:ml-10'>
+               <div className='flex flex-wrap gap-4 sm: ml-3 md:ml-10'>
                 <img src={image5} alt='image5 ' className='w-[47%] md:w-[22%]'/>
                 <img src={image7} alt='image6' className='w-[47%] md:w-[22%]'/>
                 <img src={image7} alt='image7' className='w-[47%] md:w-[22%]'/>
                 <img src={image8} alt='image8' className='w-[47%] md:w-[22%]'/>
                </div>
             </div>
-            <div className='flex flex-wrap gap-12 px-4 md:px-12 lg:px-40 py-8 lg:py-20 justify-around items-center bgr]'>
+            <div className='hero2 text-white flex flex-wrap gap-12 px-4 md:px-12 lg:px-40 py-8 lg:py-20 justify-around items-center bgr]'>
                 <div className='flex flex-col justify-center content-center items-center'>
                     <img src={image9} alt='image9' className='w-[60%]' />
-                    <p className='text-bold text-4xl'>420</p>
+                    <p className='font-bold text-4xl'>420</p>
                     <p>Professional chef</p>
                 </div>
                 <div className='flex flex-col justify-center content-center items-center'>
                     <img src={image10} alt='image10' className='w-[60%]' />
-                    <p className='text-bold text-4xl'>320</p>
+                    <p className='font-bold text-4xl'>320</p>
                     <p>Food items</p>
                 </div>
                 <div className='flex flex-col justify-center content-center items-center'>
                     <img src={image11} alt='image11' className='w-[60%]' />
-                    <p className='text-bold text-4xl'>30+</p>
+                    <p className='font-bold text-4xl'>30+</p>
                     <p>Years Of Experience</p>
                 </div>
                 <div className='flex flex-col justify-center content-center items-center'>
                     <img src={image12} alt='image12' className='w-[60%]' />
-                    <p className='text-bold text-4xl'>220</p>
+                    <p className='font-bold text-4xl text-white'>220</p>
                     <p className='text-center'>Happy Customers</p>
                 </div>
             </div>
