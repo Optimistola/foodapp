@@ -17,7 +17,7 @@ function Menu(){
     return(
           <div className="hero-text">
             <Pages  page={'Our menu'} pageName={'Menu'}/>
-            <div className='md:flex ml-5 md:mr-10 gap-20 mt-20 mb-10'>
+            <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image13} className='px-2 py-3'/>
               <div className=' mr-5 md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Starter Menu</h3>
@@ -63,8 +63,8 @@ function Menu(){
               </div>
               </div>
             </div>
-            <div className='md:flex ml-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image14} className='px-2 py-3'/>
+            <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
+              <img src={image14} className=' py-3'/>
               <div className=' mr-5 md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Main Course</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
@@ -131,7 +131,7 @@ function Menu(){
                     <p className='text-center'>Happy Customers</p>
                 </div>
             </div>
-            <div className='md:flex ml-5 md:mr-10 gap-20 mt-20 mb-10'>
+            <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image13} className='px-2 py-3'/>
               <div className=' mr-5 md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Dessert</h3>
@@ -177,7 +177,7 @@ function Menu(){
               </div>
               </div>
             </div>
-            <div className='md:flex ml-5 md:mr-10 gap-20 mt-20 mb-10'>
+            <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image14} className='px-2 py-3'/>
               <div className=' mr-5 md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Drinks</h3>
