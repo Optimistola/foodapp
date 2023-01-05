@@ -181,7 +181,7 @@ function Menu(){
               <img src={image14} className='px-2 py-3'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Drinks</h3>
-               <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
+               <div className='flex justify-center content-center gap-20 mt-5 myshadow py-2 md:py-5'>
               <div className='ml-5 flex-1'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Caffè macchiato</h2>
                 <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
@@ -191,7 +191,7 @@ function Menu(){
                 <h2 className='text-red-600 font-bold text-xl'>$32</h2>
               </div>
               </div>
-              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
+              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-2 md:py-5'>
               <div className='ml-5 flex-1'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Aperol Spritz Capacianno</h2>
                 <p className='text-sm'>Gorgonzola, ricotta, mozzarella, taleggio</p>
@@ -201,7 +201,7 @@ function Menu(){
                 <h2 className='text-red-600 font-bold text-xl'>$43</h2>
               </div>
               </div>
-              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
+              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-2 md:py-5'>
               <div className='ml-5 flex-1'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Caffe Latte Campuri</h2>
                 <p className='text-sm'>Ground cumin, avocados, peeled and cubed</p>
@@ -211,7 +211,7 @@ function Menu(){
                 <h2 className='text-red-600 font-bold text-xl'>$14</h2>
               </div>
               </div>
-              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
+              <div className='flex justify-center content-center mt-5 myshadow py-2 md:py-5'>
               <div className='ml-5 flex-1'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Tormentoso BushTea Pintoage</h2>
                 <p  className='text-sm'>Spreadable cream cheese, crumbled blue cheese</p>
