@@ -20,8 +20,13 @@ function Header(){
             document.body.querySelector('ul').classList.toggle('ul');
         };
     }
-    let showSearch=()=>{
-        document.body.querySelector('input').classList.toggle('show');
+    let navigate=()=>{
+      let liNav=document.querySelectorAll('.li');
+      liNav.forEach(item=>{
+        window.addEventListener('click', function(){
+            alert();
+        });
+      });
     }
     const [state, setState]= useState(0);
     return(
@@ -31,27 +36,27 @@ function Header(){
                 <h1 className='text-bold text-3xl mt-2 font-bold'>FoodChat</h1>
             </div>
             <nav className='sm:mt-5'>
-             <ul className="md:flex gap-2 justify-around hidden sm:hidden">
+             <ul className="md:flex gap-10 justify-around hidden sm:hidden">
                 <div  className="md:hidden flex justify-between mb-5 mr-5 ml-5 mt-5">
                   <h1 className='text-bold  md:text-5xl'>FoodChat</h1> 
                   <button><img src={deleteIcon}  onClick={hideNav}/></button>
                 </div>
-                <li onClick={hideNav}>
+                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li-active li'>
                     <NavLink to="/foodapp">Home</NavLink>
                 </li>
-                <li onClick={hideNav}>
+                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
                     <NavLink to="/menu">Menu</NavLink>
                 </li>
-                <li onClick={hideNav}>
+                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
                     <NavLink to="/blog">Blog</NavLink>
                 </li>
-                <li onClick={hideNav}>
+                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
                     <NavLink to="/about">About</NavLink>
                 </li>
-                <li onClick={hideNav}>
+                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
                     <NavLink to="/shop">Shop</NavLink>
                 </li>
-                <li onClick={hideNav}>
+                <li onClick={hideNav? hideNav:navigate? navigate :''} className='li'>
                     <NavLink to="/contact">Contact</NavLink>
                 </li>
               </ul>
