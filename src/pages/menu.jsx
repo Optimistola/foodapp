@@ -23,7 +23,7 @@ function Menu(){
                <h3 className='font-bold text-4xl'>Starter Menu</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Alder Grilled Chinook Salmon</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Alder Grilled Chinook Salmon</h2>
                 <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
                 <p>560 CAL</p>
               </div>
@@ -33,7 +33,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Berries and creme tart</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Berries and creme tart</h2>
                 <p className='text-sm'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p>700 CAL</p>
               </div>
@@ -43,7 +43,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Tormentoso Bush Pizza Pintoage</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Tormentoso Bush Pizza Pintoage</h2>
                 <p className='text-sm'>Ground cumin, avocados, peeled and cubed</p>
                 <p>1000 CAL</p>
               </div>
@@ -53,7 +53,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Spicy Vegan Potato Curry</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Spicy Vegan Potato Curry</h2>
                 <p  className='text-sm'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p>560 CAL</p>
               </div>
@@ -69,7 +69,7 @@ function Menu(){
                <h3 className='font-bold text-4xl'>Main Course</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Optic Big Breakfast Combo Menu</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Optic Big Breakfast Combo Menu</h2>
                 <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
                 <p>560 CAL</p>
               </div>
@@ -79,7 +79,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Cashew Chicken With Stir-Fry</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Cashew Chicken With Stir-Fry</h2>
                 <p className='text-sm'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p>700 CAL</p>
               </div>
@@ -89,7 +89,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Vegetables & Green Salad</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Vegetables & Green Salad</h2>
                 <p className='text-sm'>Ground cumin, avocados, peeled and cubed</p>
                 <p>1000 CAL</p>
               </div>
@@ -99,7 +99,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Spicy Vegan Potato Curry</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Spicy Vegan Potato Curry</h2>
                 <p  className='text-sm'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p>560 CAL</p>
               </div>
@@ -137,7 +137,7 @@ function Menu(){
                <h3 className='font-bold text-4xl'>Dessert</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Fig and lemon cake</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Fig and lemon cake</h2>
                 <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
                 <p>560 CAL</p>
               </div>
@@ -147,7 +147,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Creamy mascarpone cake</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Creamy mascarpone cake</h2>
                 <p className='text-sm'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p>700 CAL</p>
               </div>
@@ -157,7 +157,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Pastry, blueberries, lemon juice</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Pastry, blueberries, lemon juice</h2>
                 <p className='text-sm'>Ground cumin, avocados, peeled and cubed</p>
                 <p>1000 CAL</p>
               </div>
@@ -167,7 +167,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Pain au chocolat</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Pain au chocolat</h2>
                 <p  className='text-sm'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p>560 CAL</p>
               </div>
@@ -183,7 +183,7 @@ function Menu(){
                <h3 className='font-bold text-4xl'>Drinks</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Caffè macchiato</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Caffè macchiato</h2>
                 <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
                 <p>560 CAL</p>
               </div>
@@ -193,7 +193,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Aperol Spritz Capacianno</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Aperol Spritz Capacianno</h2>
                 <p className='text-sm'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p>700 CAL</p>
               </div>
@@ -203,7 +203,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Caffe Latte Campuri</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Caffe Latte Campuri</h2>
                 <p className='text-sm'>Ground cumin, avocados, peeled and cubed</p>
                 <p>1000 CAL</p>
               </div>
@@ -213,7 +213,7 @@ function Menu(){
               </div>
               <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
-                <h2 className='font-bold text-xl md:text-2xl hover:text-red-600'>Tormentoso BushTea Pintoage</h2>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Tormentoso BushTea Pintoage</h2>
                 <p  className='text-sm'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p>560 CAL</p>
               </div>
@@ -225,8 +225,8 @@ function Menu(){
             </div>
             <h2 className='text-4xl font-bold text-center'>Partners & Clients</h2>
             <p className='font-2xl text-center'>We work with the best people</p>
-            <div className='flex flex-wrap justify-center gap-10'>
-              <img src={image15}/>
+            <div className='flex justify-center gap-10 flex-wrap'>
+              <img src={image15} className='w-[25%]'/>
               <img src={image16}/>
               <img src={image17}/>
               <img src={image18}/>
