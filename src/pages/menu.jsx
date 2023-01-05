@@ -17,11 +17,11 @@ function Menu(){
     return(
           <div className="hero-text">
             <Pages  page={'Our menu'} pageName={'Menu'}/>
-            <div className='lg:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image13} className='px-2 py-3'/>
+            <div className='flex flex-col-reverse lg:flex lg:flex-row  ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
+              <img src={image13} className='px-2 py-3 ml-5 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
-               <h3 className='font-bold text-5xl'>Starter Menu</h3>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <h3 className='font-bold text-5xl md:ml-10 lg:ml-0'>Starter Menu</h3>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex  justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Alder Grilled Chinook Salmon</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$32</h2>
@@ -29,7 +29,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Toasted French bread topped with romano, cheddar</p>
                 <p className='ml-2'>560 CAL</p>
               </div>
-              <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Berries and creme tart</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$43</h2>
@@ -37,7 +37,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p className='ml-2'>700 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Ground cumin, avocados, peeled and cubed</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$14</h2>
@@ -45,7 +45,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p className='ml-2'>1000 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Spicy Vegan Potato Curry</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$35</h2>
@@ -55,11 +55,11 @@ function Menu(){
               </div>
               </div>
             </div>
-            <div className='lg:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image14} className='px-2 py-3'/>
+            <div className=' lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
+              <img src={image14} className='px-2 py-3 ml-5 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
-               <h3 className='font-bold text-5xl'>Main Course</h3>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <h3 className='font-bold text-5xl md:ml-10 lg:ml-0'>Main Course</h3>
+               <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex  justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Optic Big Breakfast Combo Menu</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$32</h2>
@@ -67,7 +67,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Toasted French bread topped with romano, cheddar</p>
                 <p className='ml-2'>560 CAL</p>
               </div>
-              <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Cashew Chicken With Stir-Fry</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$43</h2>
@@ -75,7 +75,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p className='ml-2'>700 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Vegetables & Green Salad</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$14</h2>
@@ -83,7 +83,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Ground cumin, avocados, peeled and cubed</p>
                 <p className='ml-2'>1000 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Spicy Vegan Potato Curry</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$35</h2>
@@ -115,10 +115,10 @@ function Menu(){
                     <p className='text-center'>Happy Customers</p>
                 </div>
             </div>
-            <div className='lg:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image13} className='px-2 py-3'/>
+            <div className='lg:flex lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
+              <img src={image13} className='px-2 py-3 ml-5 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
-               <h3 className='font-bold text-5xl'>Dessert</h3>
+               <h3 className='font-bold text-5xl ml-10 lg:ml-0'>Dessert</h3>
                <div className='justify-center content-center mt-5 myshadow py-2'>
               <div className=' flex  justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Fig and lemon cake</h2>
@@ -127,7 +127,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Toasted French bread topped with romano, cheddar</p>
                 <p className='ml-2'>560 CAL</p>
               </div>
-              <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Creamy mascarpone cake</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$43</h2>
@@ -135,7 +135,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p className='ml-2'>700 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Pastry, blueberries, lemon juice</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$14</h2>
@@ -143,7 +143,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p className='ml-2'>1000 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Pain au chocolat</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$35</h2>
@@ -153,11 +153,11 @@ function Menu(){
               </div>
               </div>
             </div>
-            <div className='lg:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image14} className='px-2 py-3'/>
+            <div className='lg:flex lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
+              <img src={image14} className='px-2 py-3 ml-5 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
-               <h3 className='font-bold text-5xl'>Drinks</h3>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <h3 className='font-bold text-5xl ml-5 md:ml-10'>Drinks</h3>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex  justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Caffè macchiato</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$32</h2>
@@ -165,7 +165,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Toasted French bread topped with romano, cheddar</p>
                 <p className='ml-2'>560 CAL</p>
               </div>
-              <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Aperol Spritz Capacianno</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$43</h2>
@@ -173,7 +173,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                 <p className='ml-2'>700 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Caffe Latte Campuri</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$14</h2>
@@ -181,7 +181,7 @@ function Menu(){
                 <p className='text-sm ml-2'>Spreadable cream cheese, crumbled blue cheese</p>
                 <p className='ml-2'>1000 CAL</p>
               </div>
-               <div className='justify-center content-center mt-5 myshadow py-2'>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Tormentoso BushTea Pintoage</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$35</h2>
@@ -190,7 +190,8 @@ function Menu(){
                 <p className='ml-2'>560 CAL</p>
               </div>
               </div>
-            </div>            <h2 className='text-4xl font-bold text-center'>Partners & Clients</h2>
+            </div>            
+            <h2 className='text-4xl font-bold text-center'>Partners & Clients</h2>
             <p className='font-2xl text-center'>We work with the best people</p>
             <div className='flex justify-center gap-10 flex-wrap'>
               <img src={image15} className='w-[25%]'/>
