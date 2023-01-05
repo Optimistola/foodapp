@@ -118,7 +118,7 @@ function Menu(){
             <div className='lg:flex lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image13} className='px-2 py-3 ml-2 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
-               <h3 className='font-bold text-5xl ml-10 lg:ml-0'>Dessert</h3>
+               <h3 className='font-bold text-5xl md:ml-10 lg:ml-0'>Dessert</h3>
                <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Fig and lemon cake</h2>
