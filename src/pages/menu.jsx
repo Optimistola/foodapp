@@ -21,44 +21,44 @@ function Menu(){
               <img src={image13} className='px-2 py-3'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Starter Menu</h3>
-               <div className='flex justify-center content-center mt-5 myshadow py-5'>
-              <div className='ml-5 flex-1'>
+               <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className=' flex ml-5 justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Alder Grilled Chinook Salmon</h2>
-                <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
-                <p>560 CAL</p>
-              </div>
+                <h2 className='text-red-600 font-bold text-xl mr-5'>$32</h2>
+                </div>
+                <p className='text-sm ml-5'>Toasted French bread topped with romano, cheddar</p>
+                <p className='ml-5'>560 CAL</p>
               <div className='mr-5'>
-                <h2 className='text-red-600 font-bold text-xl'>$32</h2>
               </div>
               </div>
-              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
-              <div className='ml-5 flex-1'>
-                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Berries and creme tart</h2>
-                <p className='text-sm'>Gorgonzola, ricotta, mozzarella, taleggio</p>
-                <p>700 CAL</p>
-              </div>
+              <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className=' flex ml-5 justify-between'>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Alder Grilled Chinook Salmon</h2>
+                <h2 className='text-red-600 font-bold text-xl mr-5'>$32</h2>
+                </div>
+                <p className='text-sm ml-5'>Toasted French bread topped with romano, cheddar</p>
+                <p className='ml-5'>560 CAL</p>
               <div className='mr-5'>
-                <h2 className='text-red-600 font-bold text-xl'>$43</h2>
               </div>
               </div>
-              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
-              <div className='ml-5 flex-1'>
-                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Tormentoso Bush Pizza Pintoage</h2>
-                <p className='text-sm'>Ground cumin, avocados, peeled and cubed</p>
-                <p>1000 CAL</p>
-              </div>
+               <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className=' flex ml-5 justify-between'>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Alder Grilled Chinook Salmon</h2>
+                <h2 className='text-red-600 font-bold text-xl mr-5'>$32</h2>
+                </div>
+                <p className='text-sm ml-5'>Toasted French bread topped with romano, cheddar</p>
+                <p className='ml-5'>560 CAL</p>
               <div className='mr-5'>
-                <h2 className='text-red-600 font-bold text-xl'>$14</h2>
               </div>
               </div>
-              <div className='flex justify-center content-center gap-20 mt-5 myshadow py-5'>
-              <div className='ml-5 flex-1'>
-                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Spicy Vegan Potato Curry</h2>
-                <p  className='text-sm'>Spreadable cream cheese, crumbled blue cheese</p>
-                <p>560 CAL</p>
-              </div>
+              <div className='justify-center content-center mt-5 myshadow py-2'>
+              <div className=' flex ml-5 justify-between'>
+                <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Alder Grilled Chinook Salmon</h2>
+                <h2 className='text-red-600 font-bold text-xl mr-5'>$32</h2>
+                </div>
+                <p className='text-sm ml-5'>Toasted French bread topped with romano, cheddar</p>
+                <p className='ml-5'>560 CAL</p>
               <div className='mr-5'>
-                <h2  className='text-red-600 font-bold text-xl'>$35</h2>
               </div>
               </div>
               </div>
