@@ -18,7 +18,7 @@ function Menu(){
           <div className="hero-text">
             <Pages  page={'Our menu'} pageName={'Menu'}/>
             <div className='flex flex-col-reverse lg:flex lg:flex-row  ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image13} className='px-2 py-3 ml-5 md:ml-10'/>
+              <img src={image13} className='px-2 py-3 ml-2 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-5xl md:ml-10 lg:ml-0'>Starter Menu</h3>
                <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
@@ -56,7 +56,7 @@ function Menu(){
               </div>
             </div>
             <div className=' lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image14} className='px-2 py-3 ml-5 md:ml-10'/>
+              <img src={image14} className='px-2 py-3 ml-2 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-5xl md:ml-10 lg:ml-0'>Main Course</h3>
                <div className='justify-center content-center mt-5 myshadow py-2  md:ml-20 lg:ml-0'>
@@ -116,10 +116,10 @@ function Menu(){
                 </div>
             </div>
             <div className='lg:flex lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image13} className='px-2 py-3 ml-5 md:ml-10'/>
+              <img src={image13} className='px-2 py-3 ml-2 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-5xl ml-10 lg:ml-0'>Dessert</h3>
-               <div className='justify-center content-center mt-5 myshadow py-2 ml-20'>
+               <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
               <div className=' flex justify-between'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600 ml-2'>Fig and lemon cake</h2>
                 <h2 className='text-red-600 font-bold text-xl mr-2'>$32</h2>
@@ -154,7 +154,7 @@ function Menu(){
               </div>
             </div>
             <div className='lg:flex lg:flex-row flex flex-col-reverse ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
-              <img src={image14} className='px-2 py-3 ml-5 md:ml-10'/>
+              <img src={image14} className='px-2 py-3 ml-2 md:ml-10'/>
               <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-5xl ml-5 md:ml-10'>Drinks</h3>
                <div className='justify-center content-center mt-5 myshadow py-2 md:ml-20 lg:ml-0'>
