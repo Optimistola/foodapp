@@ -19,7 +19,7 @@ function Menu(){
             <Pages  page={'Our menu'} pageName={'Menu'}/>
             <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image13} className='px-2 py-3'/>
-              <div className=' mr-5 md:mr-20 mt-10 flex-1'>
+              <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Starter Menu</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
@@ -65,7 +65,7 @@ function Menu(){
             </div>
             <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image14} className=' py-3'/>
-              <div className=' mr-5 md:mr-20 mt-10 flex-1'>
+              <div className='  md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Main Course</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
@@ -133,10 +133,10 @@ function Menu(){
             </div>
             <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image13} className='px-2 py-3'/>
-              <div className=' mr-5 md:mr-20 mt-10 flex-1'>
+              <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Dessert</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
-              <div className='ml-5'>
+              <div className='ml-2'>
                 <h2 className='font-bold text-lg md:text-2xl hover:text-red-600'>Fig and lemon cake</h2>
                 <p className='text-sm'>Toasted French bread topped with romano, cheddar</p>
                 <p>560 CAL</p>
@@ -179,7 +179,7 @@ function Menu(){
             </div>
             <div className='md:flex ml-5 mr-5 md:mr-10 gap-20 mt-20 mb-10'>
               <img src={image14} className='px-2 py-3'/>
-              <div className=' mr-5 md:mr-20 mt-10 flex-1'>
+              <div className=' md:mr-20 mt-10 flex-1'>
                <h3 className='font-bold text-4xl'>Drinks</h3>
                <div className='flex justify-between content-center gap-20 mt-5 myshadow'>
               <div className='ml-5'>
