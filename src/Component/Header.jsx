@@ -50,6 +50,9 @@ function Header(){
                 <li onClick={hideNav} className='li'>
                     <NavLink to="/blog">Blog</NavLink>
                 </li>
+                <li onClick={hideNav} className='li li-active'>
+                    <NavLink to="/chef">Chef</NavLink>
+                </li>
                 <li onClick={hideNav} className='li'>
                     <NavLink to="/about">About</NavLink>
                 </li>
