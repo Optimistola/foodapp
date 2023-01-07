@@ -22,6 +22,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero3{
+  background-image:url('./Component/images/image2.png');
+  height:40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .hero2{
   background-image:url('./Component/images/image2.png');
   height:80vh;
@@ -49,6 +57,13 @@ body{
   border-radius:5px;
 }
 @media(max-width:600px){
+  .hero3{
+    background-image:url('./Component/images/image2.png');
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
 .ul{
     display:block;
     position:fixed;
