@@ -11,7 +11,7 @@ function Shop(){
               <Pages pageName={'Shop'}/>
               <div className='mt-20 flex flex-col lg:flex-row-reverse  justify-center lg:mr-10'>
                 <div >
-                    <div className='ml-20 lg:ml-0' >
+                    <div className='ml-5 md:ml-20 lg:ml-0' >
                         <div className='flex content-center juistify-center items-center'><input type='search' className='px-3 py-2 shadow bg-red-200'/><span className='text-white px-3 py-3 bg-red-600'><BiSearch/></span></div>
                         <h3 className='font-bold text-xl'>Category</h3>
                         <p><input type='checkbox'/>   Sandwiches</p>
@@ -34,7 +34,7 @@ function Shop(){
               <div className='lg:ml-14  flex flex-wrap justify-center gap-6'>
               {ProductList.map(items=>(
                 <div className='flex flex-col'>
-                   <img src={items.img} className='w-[180px] h-[180px] md:w-[260px] md:h-[260px] lg:w-[280px] lg:h-[280px] flex-1'/>
+                   <img src={items.img} className='w-[150px] h-[150px] md:w-[260px] md:h-[260px] lg:w-[280px] lg:h-[280px] flex-1'/>
                    <h3 className='text-xl font-bold'>{items.key}</h3>
                     <p className='text-red-600'>${items.price}.00</p>
                     </div>
