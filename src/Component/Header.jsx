@@ -20,11 +20,12 @@ function Header(){
             document.body.querySelector('ul').classList.toggle('ul');
         };
     }
+    let {navRef, setNavRef}=useState();
     let liNav= document.querySelectorAll('li');
     liNav.forEach(item=>{
         item.addEventListener('click', function(){
-            for(let i=0; i<liNav.length; i++){
-                liNav[i].classList.remove('li-active');
+            for(let j=0; j<liNav.length; j++){
+                liNav[j].classList.remove('li-active');
             }
             item.classList.add('li-active');
         })
@@ -35,7 +36,7 @@ function Header(){
                 <button className='md:hidden'><img src={menuIcon}  onClick={showNav}/></button>
                 <h1 className='text-bold text-3xl mt-2 font-bold'>FoodChat</h1>
             </div>
-            <nav className='sm:mt-5'>
+            <nav className='sm:mt-5' >
              <ul className="md:flex gap-10 justify-around hidden sm:hidden">
                 <div  className="md:hidden flex justify-between mb-5 mr-5 ml-5 mt-5">
                   <h1 className='text-bold  md:text-5xl'>FoodChat</h1> 

@@ -31,10 +31,10 @@ function About(){
                 pellentesque bibendum non dui volutpat fringilla bibendum.</p>
 
               </div>
-              <img src={about4} className='ml-3 mr-5 md:ml-6 md :mr-10 w-[95%] lg:ml-20 lg:mr-20 lg:w-[90%]'/>
+              <img src={about4} className='ml-3 mr-5 md:ml-6 md :mr-10 w-[95%] lg:ml-20 lg:mr-20 lg:w-[90%] mb-20'/>
               <div className='flex justify-center gap-20 lg:ml-20 lg:mr-20 md:flex-row flex-col'>
                 <div className='flex content-center items-center flex-col'>
-                  <img src={about5}/>
+                  <img src={about5} />
                   <h2 className='font-bold text-xl'>Best Chef</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat</p>
                 </div>

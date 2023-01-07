@@ -11,7 +11,10 @@ import About from "./pages/about";
 import Shop from "./pages/shop";
 import Contact from "./pages/contact";
 import Login from "./pages/user/login";
-import Register from "./pages/user/register"
+import Register from "./pages/user/register";
+import Cart from "./pages/cart";
+import Wishlist from "./pages/wishlist"
+
 function App() {
   return (
     <main className=''>
@@ -28,6 +31,8 @@ function App() {
            <Route path='contact' element={<Contact/>}/>
            <Route path='user/login' element={<Login/>}/>
            <Route path='user/register' element={<Register/>}/>
+           <Route path='cart' element={<Cart/>}/>
+           <Route path='wishlist' element={<Wishlist/>}/>
         </Routes>
       </Router>
       <Footer/>
