@@ -23,8 +23,7 @@ body{
   background-size: cover;
 }
 .hero3{
-  background-image:url('./Component/images/image2.png');
-  height:40vh;
+  background-image:url('./Component/images/about4.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,8 +57,7 @@ body{
 }
 @media(max-width:600px){
   .hero3{
-    background-image:url('./Component/images/image2.png');
-    height:40vh;
+    background-image:url('./Component/images/about4.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
