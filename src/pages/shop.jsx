@@ -33,6 +33,9 @@ function Shop(){
    }
 
   }
+  let handleWishlist=()=>{
+    alert();
+  }
       return(
         <div className="hero-text">
               <Pages pageName={'Shop'}/>
@@ -63,19 +66,25 @@ function Shop(){
                       </div>
                       <div>
                         <label className='text-xl font-bold mb-2 '>Filter by price</label><br/>
-                          <input type='range' className='range bg-red-600 w-[80%]  h-2 appearance:none cursor-pointer' nvalue={value} min='6' max='43' onChange={handleRange} />
+                          <input type='range' className='range bg-red-600 w-[80%]  h-2 appearance:none cursor-pointer' value={value} min='6' max='43' onChange={handleRange} />
                         </div>
                     </div>
                 </div>
                 <div className=' flex flex-col justify-center content-center lg:ml-10 xl-[20] lg:w-[80%]'>
-                <h3 className=' mt-10 mb-10 font-bold text-lg ml-10'>Short by</h3>
+                <label className=' mt-10 font-bold text-lg ml-20'>Short by:
+                <select className='w-[30%] ml-2 h-10 mb-10 outline-none shadow  bg-gray-10'>
+                  <option>Deafault</option>
+                  <option>Category</option>
+                  <option>High to Low</option>
+                  <option>Low to high</option>
+                </select></label>
               <div className='lg:ml-14  flex flex-wrap justify-center items-start gap-6' id='shopitem'>
               {ProductList.map(items=>(
                 <div className='flex flex-col ' id='text'>
-                   <img src={items.img} className='w-[150px] h-[150px] md:w-[260px] md:h-[260px] lg:w-[150px] lg:h-[150px] xl:w-[250px] xl:h-[250px] flex-1'/>
+                   <img src={items.img} className='w-[150px] h-[150px] md:w-[300px] md:h-[300px] lg:w-[150px] lg:h-[150px] xl:w-[250px] xl:h-[250px] flex-1'/>
                    <h3 className='text-xl font-bold key'>{items.key}</h3>
                     <p className='text-red-600 price'>$<span>{items.price}</span>.00</p>
-                    <div className='flex gap-2 mt-3 mb-3 text-red-600'><BiChart/><FaHeart/><FaShoppingBag/></div>
+                    <div className='flex gap-2 mt-3 mb-3 text-red-600'><BiChart/><FaHeart onClick={handleWishlist}/><FaShoppingBag/></div>
                     </div>
               ))}
               </div>

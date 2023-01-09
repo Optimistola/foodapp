@@ -2,6 +2,7 @@ import React from 'react';
 import wishlist from "../Component/images/wishlist.jpg";
 import Empty from "../Component/empty";
 import Pages from './pages';
+const whistList=[];
 function Wishlist(){
 return(
   <div>
@@ -12,4 +13,5 @@ return(
     
 )
 }
+
 export default Wishlist;
