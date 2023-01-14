@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/foodapp/static/css/main.04a2917c.css",
-    "main.js": "/foodapp/static/js/main.0aad3120.js",
+    "main.css": "/foodapp/static/css/main.bb4575b7.css",
+    "main.js": "/foodapp/static/js/main.ff2d2e33.js",
     "static/js/787.8741f9c1.chunk.js": "/foodapp/static/js/787.8741f9c1.chunk.js",
     "static/media/wishlist.jpg": "/foodapp/static/media/wishlist.ce725d0f07108452ca8c.jpg",
     "static/media/cart.jpg": "/foodapp/static/media/cart.8d8861fab5c5f31bf750.jpg",
@@ -43,6 +43,7 @@
     "static/media/product11.png": "/foodapp/static/media/product11.2e61b4828504438bb4d6.png",
     "static/media/product1.png": "/foodapp/static/media/product1.6a57862b31a6166af198.png",
     "static/media/product17.png": "/foodapp/static/media/product17.23c950933f34d32567ae.png",
+    "static/media/heroimage.jpg": "/foodapp/static/media/heroimage.a80a970d2f6250b29dd9.jpg",
     "static/media/image15.png": "/foodapp/static/media/image15.e925f5f7b42fdf17aa26.png",
     "static/media/product9.jpg": "/foodapp/static/media/product9.8c08df5cc93b1b97d068.jpg",
     "static/media/image16.png": "/foodapp/static/media/image16.1bd5f2ab73c4d5b2a3f8.png",
@@ -56,12 +57,12 @@
     "static/media/image12.svg": "/foodapp/static/media/image12.5513ff712cee8318cf2faf41e178599b.svg",
     "index.html": "/foodapp/index.html",
     "static/media/menu.svg": "/foodapp/static/media/menu.362259e1141f09db6bf846da49fd775d.svg",
-    "main.04a2917c.css.map": "/foodapp/static/css/main.04a2917c.css.map",
-    "main.0aad3120.js.map": "/foodapp/static/js/main.0aad3120.js.map",
+    "main.bb4575b7.css.map": "/foodapp/static/css/main.bb4575b7.css.map",
+    "main.ff2d2e33.js.map": "/foodapp/static/js/main.ff2d2e33.js.map",
     "787.8741f9c1.chunk.js.map": "/foodapp/static/js/787.8741f9c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a2917c.css",
-    "static/js/main.0aad3120.js"
+    "static/css/main.bb4575b7.css",
+    "static/js/main.ff2d2e33.js"
   ]
 }
