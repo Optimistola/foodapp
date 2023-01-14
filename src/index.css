@@ -16,7 +16,7 @@ body{
   color:white;
 }
 .hero{
-  background-image:url('./Component/images/image2.png');
+  background-image:url('./Component/images/heroimage.jpg');
   height:50vh;
   background-position: center;
   background-repeat: no-repeat;

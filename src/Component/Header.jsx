@@ -1,10 +1,12 @@
 import {React, useRef} from 'react';
-import {  Link, NavLink,} from "react-router-dom";
+import {  Link, NavLink, UNSAFE_DataStaticRouterContext,} from "react-router-dom";
 import deleteIcon from './images/delete.png';
 import menuIcon from './images/menu.svg';
 import {BiSearch, BiMenuAltLeft, BiHeart, BiShoppingBag} from 'react-icons/bi';
 import {FiUser} from 'react-icons/fi';
   import {useState} from "react";
+import storeWish from './storewish';
+import Wishlist from '../pages/wishlist';
 function Header(){
     let showNav=()=>{
         document.body.querySelector('ul').classList.add('ul');
@@ -20,7 +22,6 @@ function Header(){
             document.body.querySelector('ul').classList.toggle('ul');
         };
     }
-    let {navRef, setNavRef}=useState();
     let liNav= document.querySelectorAll('li');
     liNav.forEach(item=>{
         item.addEventListener('click', function(){
@@ -29,7 +30,7 @@ function Header(){
             }
             item.classList.add('li-active');
         })
-    })
+    });
     return(
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl shadow-md">
             <div className='flex gap-5 '>
@@ -68,7 +69,7 @@ function Header(){
             <div className='flex justify-center aliign-center content-center item-center md:mt-5'>
               <Link to="user/login" className='ml-2'><FiUser /></Link>
               <Link to="/wishlist" className='relative '><BiHeart className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{'0'}</span></Link>
-              <Link to="/cart" className='relative'><BiShoppingBag className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{'0'}</span></Link>
+              <Link to="/cart" className='relative'><BiShoppingBag className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white' >{'0'}</span></Link>
             </div>
     </header>
     )

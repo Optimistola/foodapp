@@ -1,5 +1,5 @@
 import './App.css';
-import react from 'react';
+import React from 'react';
 import Header from "./Component/Header.jsx";
 import Footer from "./Component/footer.jsx";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
@@ -14,8 +14,13 @@ import Login from "./pages/user/login";
 import Register from "./pages/user/register";
 import Cart from "./pages/cart";
 import Wishlist from "./pages/wishlist"
+import { createContext } from 'react';
+import ProductList from './Component/shopFile'
 
 function App() {
+   function parent(){
+    const storeData=createContext(null);
+   }
   return (
     <main className=''>
       <Router>

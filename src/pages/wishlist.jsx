@@ -1,14 +1,16 @@
-import React from 'react';
+import {React, useContext, useState} from 'react';
 import wishlist from "../Component/images/wishlist.jpg";
 import Empty from "../Component/empty";
 import Pages from './pages';
-const whistList=[];
 function Wishlist(){
+ const [selected]=useState(JSON.parse(localStorage.getItem('selected')));
 return(
-  <div>
+  <div>    
      <Pages pageName={'Whislist'}/>
-     <Empty emptyImage={wishlist} emptyM1={'Your wishlist is empty'} emptyM2={'Proceed to store and start shopping'} text={'Go to shop'}/>
-
+     <Empty emptyImage={wishlist} emptyM1={'Your wishlist is empty'} nemptyM2={'Proceed to store and start shopping'} text={'Go to shop'}/>
+     <div>  
+     <h2>{ selected ? selected: 'no wish'}</h2>
+     </div>
   </div>
     
 )
