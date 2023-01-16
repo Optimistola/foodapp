@@ -26,7 +26,7 @@ function App() {
       <Router>
       <Header/>
         <Routes>
-           <Route index element={<Home/>}/>
+           <Route path='foodapp' element={<Home/>}/>
            <Route path='menu' element={<Menu/>}/>
            <Route path='blog' element={<Blog/>}/>
            <Route path='chef' element={<Chef/>}/>
