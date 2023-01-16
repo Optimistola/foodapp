@@ -145,4 +145,5 @@ import product18 from './images/product18.png';
             type:'Drink'
         },
     ];
+    
     export default ProductList;

@@ -5,7 +5,7 @@ import image3 from "../Component/images/about4.png";
 import { BiChart, BiSearch} from 'react-icons/bi';
 import { FaHeart, FaShoppingBag} from 'react-icons/fa';
 import storeWish from '../Component/storewish';
-
+import storeCart from '../Component/storeCart';
 
 function Shop(props){
 
@@ -33,14 +33,27 @@ function Shop(props){
       shopItems[i].style.display='none';
      }
    }
-
   }
-  const [selected, setSelected]=useState(0);
+  const [selected, setSelected ]=useState([]);
+  const [cartselected, setcartSelected ]=useState([]);
+
   let handleWishlist=(id)=>{
+    let found= storeWish.includes(el=>el.id===id);
+      if(!found){
     setSelected(storeWish.push(id));
-    alert(storeWish.length);
-
+  localStorage.setItem('items', JSON.stringify(storeWish));
+  console.log(JSON.parse(localStorage.getItem('items')))
   }
+  if(found){
+    alert(id);
+  }
+}
+  let handleCart=(id)=>{
+    setcartSelected(storeCart.push(id));
+  localStorage.setItem('cartitems', JSON.stringify(storeCart));
+  console.log(JSON.parse(localStorage.getItem('cartitems')))
+  }
+
       return(
         <div className="hero-text">
               <Pages pageName={'Shop'}/>
@@ -83,11 +96,11 @@ function Shop(props){
                 </select></label>
               <div className='lg:ml-14  flex flex-wrap justify-center items-start gap-6' id='shopitem'>
               {ProductList.map(items=>(
-                <div className='flex flex-col ' id='text' class={items.id}>
+                <div className='flex flex-col ' id='text' key={items.id}>
                    <img src={items.img} className='w-[150px] h-[150px] md:w-[300px] md:h-[300px] lg:w-[150px] lg:h-[150px] xl:w-[250px] xl:h-[250px] flex-1'/>
                    <h3 className='text-xl font-bold key'>{items.key}</h3>
                     <p className='text-red-600 price'>$<span>{items.price}</span>.00</p>
-                    <div className='flex gap-2 mt-3 mb-3 text-red-600'><BiChart/><FaHeart  onClick={()=>handleWishlist(items)}/><FaShoppingBag/></div>
+                    <div className='flex gap-2 mt-3 mb-3 text-red-600'><BiChart/><FaHeart  onClick={()=>handleWishlist(items)}/><FaShoppingBag  onClick={()=>handleCart(items)}/></div>
                     </div>
               ))}
               </div>

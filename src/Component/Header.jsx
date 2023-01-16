@@ -1,5 +1,5 @@
-import {React, useRef} from 'react';
-import {  Link, NavLink, UNSAFE_DataStaticRouterContext,} from "react-router-dom";
+import {React, useEffect, useRef} from 'react';
+import {  Link, NavLink} from "react-router-dom";
 import deleteIcon from './images/delete.png';
 import menuIcon from './images/menu.svg';
 import {BiSearch, BiMenuAltLeft, BiHeart, BiShoppingBag} from 'react-icons/bi';
@@ -31,7 +31,18 @@ function Header(){
             item.classList.add('li-active');
         })
     });
-    return(
+    const [item, setItem]=useState([]);
+    const [cartitem, setcartItem]=useState([]);
+
+    useEffect(()=>{
+     const storedItem=(JSON.parse(localStorage.getItem('items')))
+     ;
+     const storedcartItem=(JSON.parse(localStorage.getItem('cartitems')))
+     setcartItem(storedcartItem);
+
+    setItem(storedItem);
+    });  
+      return(
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl shadow-md">
             <div className='flex gap-5 '>
                 <button className='md:hidden'><img src={menuIcon}  onClick={showNav}/></button>
@@ -68,8 +79,8 @@ function Header(){
             </nav>
             <div className='flex justify-center aliign-center content-center item-center md:mt-5'>
               <Link to="user/login" className='ml-2'><FiUser /></Link>
-              <Link to="/wishlist" className='relative '><BiHeart className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{'0'}</span></Link>
-              <Link to="/cart" className='relative'><BiShoppingBag className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white' >{'0'}</span></Link>
+              <Link to="/wishlist" className='relative '><BiHeart className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{ item.length}</span></Link>
+              <Link to="/cart" className='relative'><BiShoppingBag className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white' >{cartitem.length}</span></Link>
             </div>
     </header>
     )
