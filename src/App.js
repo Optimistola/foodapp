@@ -25,8 +25,9 @@ function App() {
     <main className=''>
       <Router>
       <Header/>
+      <Home/>
         <Routes>
-           <Route path='foodapp' element={<Home/>}/>
+           <Route index element={<Home/>}/>
            <Route path='menu' element={<Menu/>}/>
            <Route path='blog' element={<Blog/>}/>
            <Route path='chef' element={<Chef/>}/>
