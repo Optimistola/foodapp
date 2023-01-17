@@ -33,11 +33,11 @@ function Header(){
     });
     const [item, setItem]=useState([]);
     const [cartitem, setcartItem]=useState([]);
+    const storedItem=(JSON.parse(localStorage.getItem('items')));
+    const storedcartItem=(JSON.parse(localStorage.getItem('cartitems')));
 
     useEffect(()=>{
-     const storedItem=(JSON.parse(localStorage.getItem('items')))
-     ;
-     const storedcartItem=(JSON.parse(localStorage.getItem('cartitems')))
+     
      setcartItem(storedcartItem);
 
     setItem(storedItem);
@@ -79,7 +79,7 @@ function Header(){
             </nav>
             <div className='flex justify-center aliign-center content-center item-center md:mt-5'>
               <Link to="user/login" className='ml-2'><FiUser /></Link>
-              <Link to="/wishlist" className='relative '><BiHeart className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{ item.length}</span></Link>
+              <Link to="/wishlist" className='relative '><BiHeart className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white'>{item.length}</span></Link>
               <Link to="/cart" className='relative'><BiShoppingBag className='ml-2'/><span className='absolute bg-red-600 text-xs rounded-full -top-4 -right-0 w-[20px] h-[20px] flex justify-center items-center text-white' >{cartitem.length}</span></Link>
             </div>
     </header>

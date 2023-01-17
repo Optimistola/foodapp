@@ -10,7 +10,7 @@ function Cart(){
   useEffect(()=>{
    const storedItem=(JSON.parse(localStorage.getItem('cartitems')));
   setItem(storedItem);
-  });
+});
   let handleRemove=(id)=>{
     let removed= storeCart.findIndex(item=>item.id==id)
      setSelected(storeCart.splice(removed, 1));
