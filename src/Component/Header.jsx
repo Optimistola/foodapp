@@ -55,7 +55,7 @@ function Header(){
                   <button><img src={deleteIcon}  onClick={hideNav}/></button>
                 </div>
                 <li onClick={hideNav} className='li li-active'>
-                    <NavLink to="/foodapp">Home</NavLink>
+                    <NavLink to="/">Home</NavLink>
                 </li>
                 <li onClick={hideNav} className='li'>
                     <NavLink to="/menu">Menu</NavLink>

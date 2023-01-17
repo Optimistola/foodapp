@@ -14,19 +14,14 @@ import Login from "./pages/user/login";
 import Register from "./pages/user/register";
 import Cart from "./pages/cart";
 import Wishlist from "./pages/wishlist"
-import { createContext } from 'react';
-import ProductList from './Component/shopFile'
 
 function App() {
-   function parent(){
-    const storeData=createContext(null);
-   }
   return (
     <main className=''>
       <Router>
       <Header/>
         <Routes>
-           <Route path='foodapp' element={<Home/>}/>
+           <Route path='/' element={<Home/>}/>
            <Route path='menu' element={<Menu/>}/>
            <Route path='blog' element={<Blog/>}/>
            <Route path='chef' element={<Chef/>}/>
