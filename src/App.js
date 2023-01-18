@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 import Header from "./Component/Header.jsx";
 import Footer from "./Component/footer.jsx";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from "./pages/home";
 import Menu from "./pages/menu";
 import Blog from "./pages/blog";
@@ -13,7 +12,9 @@ import Contact from "./pages/contact";
 import Login from "./pages/user/login";
 import Register from "./pages/user/register";
 import Cart from "./pages/cart";
-import Wishlist from "./pages/wishlist"
+import Wishlist from "./pages/wishlist";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
 
 function App() {
   return (

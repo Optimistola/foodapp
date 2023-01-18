@@ -1,5 +1,5 @@
 {
-  "homepage": "https://optimistola.github.io/foodapp/",
+  "homepage": "https://optimistola.github.io/foodapp",
   "name": "foodapp",
   "version": "0.1.0",
   "private": true,
@@ -45,5 +45,17 @@
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Optimistola/foodapp.git"
+  },
+  "keywords": [],
+  "author": "optimist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Optimistola/foodapp/issues"
   }
 }

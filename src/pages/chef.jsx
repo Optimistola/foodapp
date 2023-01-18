@@ -1,16 +1,16 @@
 import React from 'react';
 import Pages from './pages';
-import chef1 from '../Component/images/chef1.png'
-import chef2 from '../Component/images/chef2.png'
-import chef3 from '../Component/images/chef3.png'
-import chef4 from '../Component/images/chef4.png'
-import chef5 from '../Component/images/chef5.png'
-import chef6 from '../Component/images/chef6.png'
-import chef7 from '../Component/images/chef7.png'
-import chef8 from '../Component/images/chef8.png'
-import chef9 from '../Component/images/chef9.png'
-import chef10 from '../Component/images/chef10.png'
-import chef11 from '../Component/images/chef11.png'
+import chef1 from '../Component/images/chef1.png';
+import chef2 from '../Component/images/chef2.png';
+import chef3 from '../Component/images/chef3.png';
+import chef4 from '../Component/images/chef4.png';
+import chef5 from '../Component/images/chef5.png';
+import chef6 from '../Component/images/chef6.png';
+import chef7 from '../Component/images/chef7.png';
+import chef8 from '../Component/images/chef8.png';
+import chef9 from '../Component/images/chef9.png';
+import chef10 from '../Component/images/chef10.png';
+import chef11 from '../Component/images/chef11.png';
 import chef12 from '../Component/images/chef12.png'
 
 function Chef(){

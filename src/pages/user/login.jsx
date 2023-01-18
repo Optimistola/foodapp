@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Error from './error';
-import Pages from '../pages'
+import Pages from '../pages';
 import {Link} from 'react-router-dom'
 function Login() {
   const [formData, setFormData] = useState({

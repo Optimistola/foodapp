@@ -6,7 +6,7 @@ import {BiSearch, BiMenuAltLeft, BiHeart, BiShoppingBag} from 'react-icons/bi';
 import {FiUser} from 'react-icons/fi';
   import {useState} from "react";
 import storeWish from './storewish';
-import Wishlist from '../pages/wishlist';
+import Wishlist from '../pages/wishlist'
 function Header(){
     let showNav=()=>{
         document.body.querySelector('ul').classList.add('ul');
@@ -41,7 +41,7 @@ function Header(){
      setcartItem(storedcartItem);
 
     setItem(storedItem);
-    });  
+    }, []);  
       return(
         <header className="flex justify-around content-center items-center md:py-5 py-2 sticky text-0xl shadow-md">
             <div className='flex gap-5 '>

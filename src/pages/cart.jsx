@@ -10,7 +10,7 @@ function Cart(){
   useEffect(()=>{
    const storedItem=(JSON.parse(localStorage.getItem('cartitems')));
   setItem(storedItem);
-});
+}, []);
   let handleRemove=(id)=>{
     let removed= storeCart.findIndex(item=>item.id==id)
      setSelected(storeCart.splice(removed, 1));
@@ -23,7 +23,7 @@ return(
      <div >  
      <div className='flex flex-wrap mb-10 mt-20 lg:ml-20 ml-10 '>{ item.length > 0 ? 
      item.map( myItem=>(
-      <div className=' mb-5 mt-10 lg:ml-10 ml-10 flex gap-6 md:flex-col'>
+      <div className=' mb-5 mt-10 lg:ml-10 ml-10 flex gap-6 md:flex-col' key={item.id}>
         <div>
        <img src={myItem.img} className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[150px] lg:h-[150px] xl:w-[250px] xl:h-[250px] flex-1'/>
        </div>

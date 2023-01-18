@@ -1,2 +1,2 @@
 const storeWish=[];
-export default storeWish
+export default storeWish;

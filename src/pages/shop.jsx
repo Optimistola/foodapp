@@ -1,11 +1,11 @@
 import {React, useState, useContext, useEffect} from 'react';
-import Pages from './pages'
+import Pages from './pages';
 import ProductList from '../Component/shopFile';
 import image3 from "../Component/images/about4.png";
 import { BiChart, BiSearch} from 'react-icons/bi';
 import { FaHeart, FaShoppingBag} from 'react-icons/fa';
 import storeWish from '../Component/storewish';
-import storeCart from '../Component/storeCart';
+import storeCart from '../Component/storeCart'
 
 function Shop(props){
 

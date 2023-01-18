@@ -1,2 +1,2 @@
 const storeCart=[];
-export default storeCart
+export default storeCart;

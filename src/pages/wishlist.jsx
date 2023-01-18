@@ -12,7 +12,7 @@ function Wishlist(){
   useEffect(()=>{
    const storedItem=(JSON.parse(localStorage.getItem('items')));
   setItem(storedItem);
-  });
+  }, []);
  let handleRemove=(id)=>{
  let removed= storeWish.findIndex(item=>item.id==id)
   setSelected(storeWish.splice(removed, 1));
@@ -31,7 +31,7 @@ return(
      <div className='' >  
      <div className='flex flex-wrap'>{ item.length > 0 ? 
      item.map( myItem=>(
-      <div className=' mb-5 mt-10 lg:ml-10 ml-10 flex gap-6'>
+      <div className=' mb-5 mt-10 lg:ml-10 ml-10 flex gap-6' key={myItem.id}>
         <div>
        <img src={myItem.img} className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[150px] lg:h-[150px] xl:w-[250px] xl:h-[250px] flex-1'/>
        </div>
